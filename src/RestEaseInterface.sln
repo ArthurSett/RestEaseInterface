@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{BDE57E37-BC28-46B1-B8AE-271E75C3F2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface.Example.Server", "RestEaseInterface.Example.Server\RestEaseInterface.Example.Server.csproj", "{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface.Example.Client", "RestEaseInterface.Example.Client\RestEaseInterface.Example.Client.csproj", "{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface", "RestEaseInterface\RestEaseInterface.csproj", "{46786B5C-19BA-4B05-A048-625C1BB8C34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface.Example.Shared", "RestEaseInterface.Example.Shared\RestEaseInterface.Example.Shared.csproj", "{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface.Swagger", "RestEaseInterface.Swagger\RestEaseInterface.Swagger.csproj", "{9C6C12AC-C6A9-41F7-8A5A-BE8C9A14F9C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestEaseInterface.Tests", "RestEaseInterface.Tests\RestEaseInterface.Tests.csproj", "{CA133952-FB05-422B-89B9-2CE18807CD03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB} = {BDE57E37-BC28-46B1-B8AE-271E75C3F2C9}
+		{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B} = {BDE57E37-BC28-46B1-B8AE-271E75C3F2C9}
+		{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1} = {BDE57E37-BC28-46B1-B8AE-271E75C3F2C9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C1A7ED-3E94-47C3-8A3E-1557A040BFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A757D7-9F3A-4F0D-B133-88A6B5BC6B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46786B5C-19BA-4B05-A048-625C1BB8C34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46786B5C-19BA-4B05-A048-625C1BB8C34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46786B5C-19BA-4B05-A048-625C1BB8C34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46786B5C-19BA-4B05-A048-625C1BB8C34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BE1E73-63E1-4BB7-81C0-7B89DC812CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6C12AC-C6A9-41F7-8A5A-BE8C9A14F9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6C12AC-C6A9-41F7-8A5A-BE8C9A14F9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6C12AC-C6A9-41F7-8A5A-BE8C9A14F9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6C12AC-C6A9-41F7-8A5A-BE8C9A14F9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA133952-FB05-422B-89B9-2CE18807CD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA133952-FB05-422B-89B9-2CE18807CD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA133952-FB05-422B-89B9-2CE18807CD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA133952-FB05-422B-89B9-2CE18807CD03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
