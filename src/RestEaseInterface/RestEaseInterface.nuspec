@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ArthurSett/RestEaseInterface/main/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/ArthurSett/RestEaseInterface</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>https://github.com/ArthurSett/RestEaseInterface/blob/main/README.md</releaseNotes>
+    <copyright>Copyright 2023</copyright>
+    <tags>REST, ASPNETCORE, DOTNET, HTTP, HTTPS, CSHARP</tags>
+  </metadata>
+</package>
