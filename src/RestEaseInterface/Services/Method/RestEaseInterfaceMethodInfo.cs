@@ -75,7 +75,8 @@ public class RestEaseInterfaceMethodInfo
         get {
             if (methodPath != null)
                 return methodPath;
-            return methodPath = MethodInfo.GetCustomAttribute<RequestAttributeBase>()!.Path!.TrimStart('/');
+            string path = MethodInfo.GetCustomAttribute<RequestAttributeBase>()!.Path;
+            return methodPath = path?.TrimStart('/') ?? string.Empty;
         }
     }
     
